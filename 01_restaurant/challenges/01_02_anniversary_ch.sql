@@ -5,3 +5,12 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+
+CREATE TABLE CustomerParty(
+CustomerID INTEGER,
+number_peoples INTEGER
+);
+
+INSERT INTO CustomerParty VALUES('1','10');
+
+SELECT * FROM CustomerParty
